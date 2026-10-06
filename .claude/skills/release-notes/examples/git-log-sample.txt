@@ -1,0 +1,20 @@
+$ git log v1.4.0..HEAD --no-merges --format='%h %s%n%b'
+a81f2c3 feat(invoices): include customer tax ID on PDF when set
+Adds tax_id to invoice template; falls back to blank when the field is empty.
+
+4c9d0e1 fix(reports): weekly report email used UTC day boundary
+Reports sent at 00:00 local now cover the local day. Fixes #212.
+
+7e2b9aa chore(deps): bump next 15.4.2 -> 15.4.3
+
+b3f1d77 feat(settings): rename "Export" to "Download data"; move under Settings > Data
+Old /export route redirects for 90 days.
+
+d05e418 refactor(billing): extract plan limits into config
+
+9f7c2b0 fix(editor): pasted tables lost column widths
+
+c21a6f4 test: add report timezone cases
+
+e6d4b12 feat(api): rate limit raised from 60 to 120 requests/min for Pro
+Starter unchanged. Response header X-RateLimit-Limit now reflects plan.
