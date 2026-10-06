@@ -1,0 +1,5 @@
+month,new_customers,churned_customers,new_mrr,expansion_mrr,contraction_mrr,churned_mrr,sales_marketing_spend,total_expenses,cash
+2026-06,13,4,2900,850,220,950,4600,27370,142300
+2026-07,14,3,3100,940,190,760,4900,30260,139100
+2026-08,15,4,3500,1020,240,1010,5300,33230,136200
+2026-09,17,4,3900,1150,210,1050,5800,36720,133600
