@@ -39,7 +39,7 @@ Compute for the latest period (L) and the one before (P). Show the formula once,
 Rules:
 - A denominator of zero gives "not computable (no new customers this period)", never a number.
 - Compute every Change from unrounded values, then round: money to whole units, ratios and months to one decimal, percentages to one decimal, percentage-point changes to one decimal.
-- Compare L with P in words a founder uses: "MRR grew 12.5% to 34,120, up from 12.1% growth last month."
+- Compare L with P in words a founder uses: "MRR grew 12.5% to 34,120, up from 11.0% growth last month."
 - Flat rule, applied to the Change column and to prose alike: a percentage that moved less than 0.5 point, or any other metric that moved less than 2% of its previous value, is written as "flat". Everything else gets its signed number.
 
 ## Output
